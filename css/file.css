@@ -53,6 +53,7 @@ body{
 header{
     background-color: var(--color-background-image);
     margin-top: 50px;
+    min-height: 630px;
 }
 
 nav{
@@ -73,7 +74,13 @@ h1{
 }
 
 header p{
-    margin-top: 20px;
+    margin-top: 30px;
+    font-size: 18px;
+
+}
+
+.down-arrow{
+    font-size: 50px;
 }
 
 
@@ -83,9 +90,7 @@ header p{
 
 #jumbo{
     position: absolute;
-    height: 330px;
     padding-top: 20px;
-
 }
 /* main  */
 
