@@ -41,7 +41,12 @@ a{
 }
 
 
+
 /* general  */
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
 
 /* header  */
 
@@ -61,11 +66,27 @@ header ul li{
 header img{
    padding-top: 5px;
    max-width: 100%;
-   
+}
 
+h1{
+    font-size: 70px;
+}
+
+header p{
+    margin-top: 20px;
 }
 
 
+.position-relative{
+    position: relative;
+}
+
+#jumbo{
+    position: absolute;
+    height: 330px;
+    padding-top: 20px;
+
+}
 /* main  */
 
 
@@ -103,6 +124,15 @@ footer{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1000;
+}
+
+#left{
+    width: 30%;
+}
+
+#right{
+    width: 70%;
 }
 
 /* utility flex  */
@@ -134,9 +164,25 @@ footer{
     justify-content: flex-end
 }
 
+.f-center{
+    justify-content: center;
+}
+
 /* margin/padding  */
 
 .section-padding{
     padding: 30px;
+}
+
+.header-pudding{
+    padding: 30px 10px 5px 10px;
+}
+
+/* button utility */
+
+.blue-button{
+    color: var(--color-background);
+    padding: 5px 10px;
+    background-color: var(--color-button);
 }
 
