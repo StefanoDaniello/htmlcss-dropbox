@@ -175,6 +175,21 @@ footer{
     max-width:600px;
 }
 
+.all-img-container{
+    width: calc(100 / 3);
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.img-container{
+    width: 300px;
+}
+
+.text-container{
+    width: 300px;
+    word-wrap: break-word;
+
+}
 
 /* utility flex  */
 .d-flex{
@@ -326,6 +341,3 @@ footer{
 
 
 
-.immagine:hover{
-    border: 5px solid red;
-}
