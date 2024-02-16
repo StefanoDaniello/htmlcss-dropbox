@@ -74,14 +74,21 @@ header ul li{
 
 
 
-header ul li a:hover:not(.blue-button){
-    box-shadow: 0px 30px 0px -7px  grey;
+header ul li a:hover:not(#no-shadow){
+    box-shadow: 0px 30px 0px -9px  grey;
+}
+
+
+.shadow:hover{
+    box-shadow: 0px 30px 0px -9px  grey;
+    
 }
 
 
 header ul li a{
     color: var(--color-background-footer);
 }
+
 
 header img{
    padding-top: 7px;
@@ -220,6 +227,7 @@ summary{
 }
 
     summary::before {
+    margin-top: -3px;
     content: "\02C5";
     color: var(--color-background-footer);
     float: left;
