@@ -132,6 +132,9 @@ ul li i{
     color: var(--color-bg-uniflorida);
 }
 
+.link{
+    color: var(--color-bg-uniflorida);
+}
 
 /* footer  */
 
@@ -285,6 +288,12 @@ footer{
     padding-top: 20px;
 }
 
+.padding-t-40{
+    padding-top: 40px;
+}
+
+
+
 
 
 
@@ -339,5 +348,8 @@ footer{
     text-align: center;
 }
 
+.size-40{
+    font-size: 40px;
+}
 
 
