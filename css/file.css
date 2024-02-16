@@ -146,6 +146,54 @@ ul li i{
     color: var(--color-bg-asu);
 }
 
+summary{
+    list-style: none;
+    cursor: pointer;
+}
+
+    summary::before {
+    content: "\02C5";
+    color: var(--color-background-footer);
+    float: left;
+    margin-right: 10px;
+    font-size: large;
+    }
+   
+    details[open] summary::before {
+    content: "\005E";
+    font-size: large;
+    }
+
+summary h4{
+    display: inline-block;
+}
+
+
+
+/* 
+#down-arrow{
+    padding-left: 270px;
+}
+
+#up-arrow{
+  padding-left: 270px;
+  display: none;
+    
+}
+
+summary:active #down-arrow{
+    display: none;
+}
+
+summary:active #up-arrow{
+    display: inline-block;
+    
+}
+ */
+
+
+
+
 /* footer  */
 
 
@@ -321,6 +369,10 @@ footer{
 
 .padding-t-20{
     padding-top: 20px;
+}
+
+.padding-t-30{
+    padding-top:30px ;
 }
 
 .padding-t-40{
