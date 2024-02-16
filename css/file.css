@@ -194,6 +194,24 @@ footer{
 
 }
 
+.s-agency-conteiner{
+    width: 300px;
+    padding: 30%;
+    aspect-ratio: 1 / 1 ;
+    background-color: var(--color-bg-designit);
+}
+
+.agency-filter{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(106deg) brightness(104%) contrast(101%);
+}
+
+.b-agency-container{
+    width:699px;
+    padding: 30px;
+    background-color: var(--color-bg-designit-center);
+}
+
+
 /* utility flex  */
 .d-flex{
     display: flex;
