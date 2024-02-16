@@ -202,8 +202,32 @@ footer{
     color: var(--color-background);
 }
 
+footer a{
+    color: var(--color-background);
+    font-size: large;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer ul li{
+    padding-bottom: 20px;
+}
+
+footer h2{
+    font-size: 30px;
+}
+
+.lenguage{
+    cursor: pointer;
+    padding: 50px 0px;
+}
+
 
 /* container  */
+
+
 
 
 
@@ -343,6 +367,9 @@ footer{
     margin-left: 30px;
 }
 
+.margin-l-500{
+    margin-left: 800px;
+}
 
 /* padding  */
 
@@ -379,6 +406,10 @@ footer{
     padding-top: 40px;
 }
 
+
+.padding-l-300{
+    padding-left: 300px;
+}
 
 
 
@@ -436,6 +467,10 @@ footer{
    width: 60px;
 }
 
+.border-t{
+    border-top: 1px solid var(--color-background);
+   width: 200px;
+}
 
 
 /* text utility  */
