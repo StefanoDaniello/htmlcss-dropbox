@@ -211,6 +211,112 @@ ul li i{
     color: var(--color-bg-uniflorida);
 }
 
+.agency-filter{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(106deg) brightness(104%) contrast(101%);
+    width: 200px;
+}
+
+
+
+
+
+/* agency logo and hover  */
+
+
+
+/* green  */
+.green{
+    background-color: var(--color-bg-designit);
+}
+
+.green:hover{
+    border: 20px solid rgba(255, 255, 255, 0.2);
+}
+/* green  */
+
+
+/* celestial  */
+.celestial{
+    background-color: var(--color-bg-uniflorida);
+}
+
+.celestial:hover{
+    border: 20px solid rgba(255, 255, 255, 0.2);
+}
+/* celestial  */
+
+
+/* violetto  */
+.violetto{
+    background-color: var(--color-bg-asu);
+}
+
+.violetto:hover{
+    border: 20px solid rgba(255, 255, 255, 0.2);
+}
+/* violetto  */
+
+
+/* orange  */
+.orange{
+    background-color: var(--color-bg-topps);
+}
+
+.orange:hover{
+    border: 20px solid rgba(255, 255, 255, 0.2);
+}
+/* orange  */
+
+
+
+/* red */
+.red{
+    background-color: var(--color-bg-bicycle);
+}
+
+.red:hover{
+    border: 20px solid rgba(255, 255, 255, 0.2);
+}
+/* red */
+
+
+
+/* blue  */
+
+.blue{
+    background-color: var(--color-bg-lonelyplanet);
+}
+
+.blue:hover{
+    border: 20px solid rgba(255, 255, 255, 0.2);
+}
+/* blue  */
+
+
+
+/* light-blue  */
+
+.light-blue{
+    background-color: var(--color-background-image);
+}
+
+.light-blue:hover{
+    border: 20px solid rgba(255, 255, 255, 0.2);
+}
+/* light-blue  */
+
+
+
+/* yellow  */
+.yellow{
+    background-color: var(--color-bg-clearchannel);
+}
+
+.yellow:hover{
+    border: 20px solid rgba(255, 255, 255, 0.2);
+}
+/* yellow  */
+
 
 #agency-call-too-action{
     background-color: var(--color-background-image);
@@ -355,14 +461,11 @@ footer h2{
 .s-agency-conteiner{
     width: 300px;
     aspect-ratio: 1 / 1 ;
-    background-color: var(--color-bg-designit);
     justify-content: center;
+    align-items: center;
 }
 
-.agency-filter{
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(106deg) brightness(104%) contrast(101%);
-    width: 200px;
-}
+
 
 .b-agency-container{
     width:699px;
@@ -483,9 +586,7 @@ footer h2{
 }
 
 
-.padding-l-300{
-    padding-left: 300px;
-}
+
 
 
 
@@ -506,12 +607,19 @@ footer h2{
     text-decoration: none;
 }
 
+.blue-button-3{
+    color: var(--color-background);
+    padding: 10px 85px;
+    background-color: var(--color-button);
+    text-decoration: none;
+}
+
 .black-button{
     color: var(--color-background-footer);
     padding: 10px;
     border: 1px solid var(--color-background-footer);
-    border-left: 2px solid var(--color-background-footer);
-    border-bottom: 2px solid var(--color-background-footer);
+    border-left: 3px solid var(--color-background-footer);
+    border-bottom: 3px solid var(--color-background-footer);
     text-decoration: none;
 }
 
