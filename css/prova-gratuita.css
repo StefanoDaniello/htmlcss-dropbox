@@ -5,10 +5,16 @@
 }
 
 .left{
-    width: 50%;
+    width: 60%;
 }
 .right{
-    width: 50%;
+    width: 40%;
+    background-color:#F7F5F2;
+    position:fixed;
+    right: 0px;
+    top: 55px;
+    height: 100%;
+    top: 0px;
 }
 
 a{
@@ -39,11 +45,66 @@ body{
 
 
 .img-container{
-    width: 200px;
+    width: 50px;
     position: fixed;
     left: 0;
     top: 0;
 }
+
+.button-container{
+    position: fixed;
+    right: 30px;
+    top: 10px;
+    z-index: 100;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:rgba(247,245,242, 0.5) ;
+}
+
+
+
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: rgba(247,245,242, 0.5);
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+  
+  .show {display: block;}
+
+
 
 /* main  */
 
@@ -73,7 +134,10 @@ h1{
     color: green;
 }
 
-
+.celeste{
+    color: #1A73E8;
+    margin: 5px;
+}
 /* radio style  */
 
 
@@ -82,11 +146,28 @@ h1{
     font-size:small ;
 }
 
+.title-2{
+    font-size: 40px;
+}
 
+.font-size{
+    font-size: x-large;
+}
 
+.second-img{
+    width: 50px;
+}
 
+.logo{
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px grey;
+ 
+}
 
-
+main ul li{
+    display: flex;
+    padding-bottom: 5px;
+}
 /* footer  */
 
 .no-underline{
@@ -241,8 +322,8 @@ h1{
 .small-container{
     width: 420px;
     padding-top: 50px;
-    overflow-y:auto;
 }
+
 
 
 
@@ -285,22 +366,6 @@ h1{
 
 /* margin/padding  */
 
-.header-pudding{
-    padding: 30px 10px 0px 10px;
-}
-
-.section-padding{
-    padding: 100px 10px ;
-}
-
-
-.padding-plan{
-    padding: 30px 25px;
-}
-
-.padding-partner{
-    padding: 150px 20px 0px 22px;
-}
 
 /* margin  */
 
@@ -350,11 +415,19 @@ h1{
     padding-top: 40px;
 }
 
+.padding-t-60{
+    padding-top:60px;
+}
+
 
 /* padding left  */
 
 .padding-l-25{
     padding-left: 25px;
+}
+
+.padding-l-80{
+    padding-left: 80px;
 }
 
 .input-padding{
