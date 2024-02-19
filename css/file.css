@@ -22,6 +22,7 @@
 	--color-bg-herst: #b4d0e7;
 	--color-bg-clearchannel: #ffd830;
 	--color-text-buisness: #61082b;
+    --color-border:#C0C0C0;
 }
 
 ul{
@@ -51,6 +52,7 @@ img{
 body{
     font-family: "Open Sans", sans-serif;
     min-width: 1200px;
+    scroll-behavior: smooth ;
 }
 
 /* header  */
@@ -116,6 +118,7 @@ header p{
 .down-arrow{
     font-size: 50px;
     padding-top: 10px;
+    color: var(--color-background-footer);
 }
 
 
@@ -335,48 +338,27 @@ summary{
     cursor: pointer;
 }
 
-    summary::after {
-    margin-top: -3px;
+#faq summary h4{
+    display: inline-block;
+}
+
+#faq summary::after {
     content: "\02C5";
     color: var(--color-background-footer);
     float: left;
-    margin-right: 10px;
     font-size: large;
     position: relative;
     left: 950px;
-    }
    
-    details[open] summary::after {
+}
+
+#faq details[open] summary::after {
     content: "\005E";
     font-size: large;
-    }
-
-summary h4{
-    display: inline-block;
+   
 }
 
 
-
-/* 
-#down-arrow{
-    padding-left: 270px;
-}
-
-#up-arrow{
-  padding-left: 270px;
-  display: none;
-    
-}
-
-summary:active #down-arrow{
-    display: none;
-}
-
-summary:active #up-arrow{
-    display: inline-block;
-    
-}
- */
 
 
 
@@ -434,6 +416,7 @@ footer h2{
     top: 0;
     left: 0;
     z-index: 1000;
+    box-shadow: 0px 5px 20px grey;
 }
 
 .plan-container{
@@ -598,6 +581,10 @@ footer h2{
     background-color: var(--color-button);
 }
 
+.blue-button:hover{
+    background-color: var(--color-bg-uniflorida);
+}
+
 .blue-button-2{
     color: var(--color-background);
     padding: 10px 30px;
@@ -605,11 +592,19 @@ footer h2{
     text-decoration: none;
 }
 
+.blue-button-2:hover{
+    background-color: var(--color-bg-uniflorida);
+}
+
 .blue-button-3{
     color: var(--color-background);
     padding: 10px 85px;
     background-color: var(--color-button);
     text-decoration: none;
+}
+
+.blue-button-3:hover{
+    background-color: var(--color-bg-uniflorida);
 }
 
 .black-button{
@@ -621,6 +616,10 @@ footer h2{
     text-decoration: none;
 }
 
+.black-button:hover{
+    background-color:var(--color-border);
+}
+
 .white-button{
     text-decoration: none;
     font-size: x-large;
@@ -629,23 +628,27 @@ footer h2{
     color: var(--color-background-footer);
 }
 
+.white-button:hover{
+    background-color:var(--color-border);
+}
+
 
 /* border utility  */
 
 
 .border-b-1{
-    border-left: 0px solid var(--color-background-footer);
-    border-right: 0px solid var(--color-background-footer);
-    border-top: 0px solid var(--color-background-footer);
-    border-bottom: 1px solid var(--color-background-footer);
+    border-left: 0px solid ;
+    border-right: 0px solid ;
+    border-top: 0px solid ;
+    border-bottom: 1px solid var(--color-border);
 }
 
 .border{
-    border: 1px solid var(--color-background-footer);
+    border: 1px solid var(--color-border);
 }
 
 .border-b{
-    border-bottom: 1px solid var(--color-background-footer);
+    border-bottom: 1px solid var(--color-border);
    width: 60px;
 }
 
