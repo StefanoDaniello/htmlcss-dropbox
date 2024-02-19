@@ -327,21 +327,26 @@ ul li i{
     color: var(--color-bg-asu);
 }
 
+
+
+
 summary{
     list-style: none;
     cursor: pointer;
 }
 
-    summary::before {
+    summary::after {
     margin-top: -3px;
     content: "\02C5";
     color: var(--color-background-footer);
     float: left;
     margin-right: 10px;
     font-size: large;
+    position: relative;
+    left: 950px;
     }
    
-    details[open] summary::before {
+    details[open] summary::after {
     content: "\005E";
     font-size: large;
     }
@@ -375,9 +380,7 @@ summary:active #up-arrow{
 
 
 
-
 /* footer  */
-
 
 footer{
     background-color: var(--color-background-footer);
@@ -584,11 +587,6 @@ footer h2{
 .padding-t-40{
     padding-top: 40px;
 }
-
-
-
-
-
 
 
 
