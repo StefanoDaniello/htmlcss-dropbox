@@ -220,6 +220,11 @@ ul li i{
 }
 
 
+.calc-1-3{
+    width: calc(100 / 2);
+}
+
+
 
 
 
