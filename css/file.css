@@ -49,10 +49,14 @@ img{
 
 /* general  */
 
+html{
+    scroll-behavior: smooth ;
+
+}
+
 body{
     font-family: "Open Sans", sans-serif;
     min-width: 1200px;
-    scroll-behavior: smooth ;
 }
 
 /* header  */
@@ -216,16 +220,18 @@ ul li i{
 
 .agency-filter{
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(106deg) brightness(104%) contrast(101%);
-    width: 200px;
+    width: 70% ;
+}
+
+.brand{
+    width: calc(100% / 3);
+    aspect-ratio: 1 / 1;
 }
 
 
-.calc-1-3{
-    width: calc(100 / 2);
+.center-logo{
+    width: 70%;
 }
-
-
-
 
 
 /* agency logo and hover  */
@@ -450,7 +456,7 @@ footer h2{
 }
 
 .s-agency-conteiner{
-    width: 300px;
+    width: calc(50%);
     aspect-ratio: 1 / 1 ;
     justify-content: center;
     align-items: center;
@@ -459,12 +465,10 @@ footer h2{
 
 
 .b-agency-container{
-    width:699px;
-    height: 600px;
+    height: 100%;
     padding: 30px;
     background-color: var(--color-bg-designit-center);
     overflow-y: scroll;
-    padding-bottom: 500px;
     
 }
 
