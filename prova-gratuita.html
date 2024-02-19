@@ -11,39 +11,53 @@
     <title>Prova Dropbox</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="img/logo-small.png" alt="">
-        </nav>
-    </header>
+
     <main>
+
+        <img src="img/logo-small.png" alt="">
+     
         <!-- contiene tutto  -->
         <div class="d-flex container">
-
+          
             <!-- contiene left  -->
-            <div class="d-flex wrap left">
+            <div class="d-flex wrap left small-container">
 
-                <section id="title">
+                <section id="title" class="padding-b-50">
                     <h1>inizi la prova gratuita</h1>
                 <span>Oppure <a href="#" class="underline">Acquista subito Dropbox Bussiness Plus</a></span>
                 </section>
                 
-                <section id="free-plan">
-                    <h2>Scegli un piano di prova</h2>
+                <section id="shoose-your-plan">
+                    <span class="title">Scegli un piano di prova</span>
 
-                    <input type="radio" name="business"> 
-                    <span>Business</span> 
-                    <span>Prova gratis per 30 giorni</span>
-                    <span>9 TB (9000 GB) per il team</span>
 
-                    <input type="radio" name="business-plus">
-                    <span>Business Plus</span> 
-                    <span>Prova gratis per 30 giorni</span>
-                    <span>15 TB (15000 GB) per il team</span>
+                    <ul class="padding-b-30">
+                        <li> 
+                          <label class="radio-container">
+                            <input type="radio" checked="checked" name="radio"> Business
+                            <span class="checkmark"></span>
+                          </label>  
+                        </li>
+                        
+                        <li class="padding-l-25 green">Prova gratis per 30 giorni</li>
+                        <li class="padding-l-25">9 TB (9000 GB) per il team</li>
+                    </ul>
+
+                    <ul class="padding-b-30">
+                        <li>
+                            <label class="radio-container">
+                                <input type="radio"  name="radio"> Business Plus
+                                <span class="checkmark"></span>
+                            </label>  
+                        </li>
+
+                        <li class="padding-l-25 green">Prova gratis per 30 giorni</li>
+                        <li class="padding-l-25">15 TB (15000 GB) per il team</li>
+                    </ul>
                 </section>
 
                 <section id="create-a-account">
-                    <h2>Crea un account</h2>
+                    <h3>Crea un account</h3>
                     <span>oppure <a href="#"></a>usa un account Dropbox esistente</span>
 
                     
