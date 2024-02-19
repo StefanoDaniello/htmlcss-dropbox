@@ -19,6 +19,10 @@ ul{
     list-style: none;
 }
 
+img{
+    width: 100%;
+}
+
 .debug{
     border: 1px red solid;
 }
@@ -28,6 +32,17 @@ ul{
 
 body{
     font-family: "Open Sans", sans-serif;
+}
+
+
+/* header  */
+
+
+.img-container{
+    width: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 /* main  */
@@ -74,9 +89,20 @@ h1{
 
 /* footer  */
 
+.no-underline{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.no-underline:hover{
+    text-decoration: underline;
+}
 
 
-
+.lenguage{
+    margin-left: 50px;
+    font-weight: 700;
+}
 
 
 /* radio style  */
@@ -209,11 +235,13 @@ h1{
 .container{
     width: 1200px;
     margin: 0 auto;
+   
 }
 
 .small-container{
     width: 420px;
     padding-top: 50px;
+    overflow-y:auto;
 }
 
 
