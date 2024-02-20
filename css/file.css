@@ -344,7 +344,7 @@ ul li i{
 }
 
 .brand{
-    width: calc(100% / 3);
+    width: calc(100% / 3); 
     aspect-ratio: 1 / 1;
 }
 
